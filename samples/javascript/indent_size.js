@@ -1,15 +1,11 @@
 if (a) {
-      b = c;
-function foo(d) {
-              e = f;
-  }
+  b = c;
+  function foo(d) { e = f; }
 }
 
 if (a) {
   b = c;
-  function foo(d) {
-      e = f;
-  }
+  function foo(d) { e = f; }
 }
 
 foo.bar.baz();
